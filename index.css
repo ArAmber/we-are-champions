@@ -41,15 +41,13 @@ h1 {
     padding:12px 19px;
 }
 
-#from-to{
-    display: flex;
-    justify-content: space-between;
-    margin:0px;
+.from-to{
+    display: flex; 
 }
 
 input {
-    margin: 9px 0 5px 0px;
-    width: 148px;
+    margin: 9px 5px;
+    width: 150px;
     height: 40px;
     background: #444059;
     border-radius: 8px;

@@ -1,14 +1,18 @@
 html, body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background: #1B1924;
     text-align: center;
+    align-items: center;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 320px;
 }
 
 img {
@@ -24,10 +28,6 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.input-div{
-    width: 320px;
-}
-
 #endorsements {
     margin-top:20px;
     width: 280px;
@@ -41,12 +41,8 @@ h1 {
     padding:12px 19px;
 }
 
-#from-to {
-    width: 280px;
-}
-
 input {
-    margin:9px 4.5px;
+    margin:9px 3px;
     width: 148px;
     height: 40px;
     background: #444059;

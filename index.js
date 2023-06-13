@@ -40,7 +40,7 @@ onValue(endorsementsInDB,function(snapshot){
     endorsementsContainer.innerHTML=""
     if(snapshot.exists()){
         const allEndorsements = Object.entries(snapshot.val())
-        for(let i = 0; i < allEndorsements.length; i++) {
+        for(let i = allEndorsements.length - 1; i >= 0 ; i--) {
             addNewElement(allEndorsements[i])
         }
     }

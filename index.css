@@ -31,7 +31,7 @@ h1 {
     background: #444059;
     border-radius: 8px;
     border:none;
-    color: #8F8F8F;
+    color: white;
     font-weight: 400;
     font-size: 15px;
     padding:12px 19px;
@@ -46,13 +46,25 @@ input {
     border: none;
 }
 
+input:-moz-placeholder{
+    color: #8F8F8F;
+}
+
 #from{
     text-align: center;
+    color: white;
+}
+
+#from:-moz-placeholder{
     color: #8F8F8F;
 }
 
 #to {
     text-align: center;
+    color: white;
+}
+
+#to:-moz-placeholder{
     color: #8F8F8F;
 }
 
@@ -115,6 +127,7 @@ h3 {
     border:none;
     font-weight: 700;
     font-size: 16px;
+    color:pink;
 }
 
 

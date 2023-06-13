@@ -37,6 +37,10 @@ h1 {
     padding:12px 19px;
 }
 
+#from-to {
+    width: 280px;
+}
+
 input {
     margin:9px 4.5px;
     width: 150px;
